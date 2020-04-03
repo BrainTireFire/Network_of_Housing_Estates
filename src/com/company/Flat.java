@@ -3,7 +3,7 @@ package com.company;
 import java.time.LocalDate;
 import java.util.List;
 
-public class Flat extends Block implements MenuFunctions{
+public class Flat extends Block{
 
     private int NumberOfFlat;
     private int VolumeOfFlat;
@@ -16,18 +16,4 @@ public class Flat extends Block implements MenuFunctions{
     }
 
 
-    @Override
-    public void add(List li) {
-
-    }
-
-    @Override
-    public void remove(List li) {
-
-    }
-
-    @Override
-    public void search(List li) {
-
-    }
 }
